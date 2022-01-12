@@ -1,4 +1,6 @@
 # FPGA_design_automation
+
+Please firsly refer to file ```./2021 floorplan project.pdf``` for detailed problem description and specs.<br/>
 ## I. How to compile <br/>
 In ```./src/```, enter the command below,
 ```
