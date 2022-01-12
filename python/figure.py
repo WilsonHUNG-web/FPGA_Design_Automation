@@ -70,25 +70,25 @@ def fpga_plot(casename):
     fa = open(filename_arch, 'r')
     line = fa.readline()
     line = line.split()
-    w, h, s, d = int(line[0]), int(line[1]), int(line[2]), int(line[3])
+    r, c, s, d = int(line[0]), int(line[1]), int(line[2]), int(line[3])
     fig = plt.figure(figsize=(20, 20))
     ax = fig.add_subplot(111)
 
-    for i in range(w+1):
-        for j in range(h+1):
-            clb = plt.Rectangle((i, j), 1, 1, edgecolor='white',
-                                facecolor='grey', fill=True, linewidth=2)
-            ax.add_patch(clb)
-    for i in range(s, w+1, d):
-        for j in range(0, h+1, 3):
+    # for i in range(c):
+    #  for j in range(r):
+    # clb = plt.Rectangle((i, j), 1, 1, edgecolor='white',
+    #                     facecolor='grey', fill=True, linewidth=2)
+    # ax.add_patch(clb)
+    for i in range(s, c+1, d):
+        for j in range(0, r+1, 3):
             mux = plt.Rectangle((i, j), 1, 3, edgecolor='white',
                                 facecolor='lightblue', fill=True, linewidth=2)
             ax.add_patch(mux)
-    fixedline = plt.Rectangle((0, 0), w + 1, h + 1, edgecolor='red',
+    fixedline = plt.Rectangle((0, 0), c+1, r+1, edgecolor='red',
                               facecolor='green', fill=False, linewidth=2, linestyle='dashed')
     ax.add_patch(fixedline)
-    plt.yticks(np.arange(0, h+15, 5))
-    plt.xticks(np.arange(0, w+15, 5))
+    plt.yticks(np.arange(1, r+15, 5))
+    plt.xticks(np.arange(1, c+15, 5))
     plt.savefig(casename + '.png')
     plt.show()
 
