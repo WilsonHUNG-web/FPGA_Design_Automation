@@ -2,7 +2,7 @@
 
 Please firstly refer to file ```./2021 floorplan project.pdf``` for detailed problem description and specs.<br/>
 ## I. How to compile <br/>
-In ```./src/```, enter the command below,
+In ```./src/```, enter the command below to remove the old executable file and compile a new one,
 ```
 $ make clean
 $ make 
