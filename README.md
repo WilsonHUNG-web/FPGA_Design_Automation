@@ -30,7 +30,7 @@ $ ../bin/verify ../benchmarks/case2.arch ../benchmarks/case2.module ./benchmarks
 ## IV. How to draw floorplan figures <br/>
 In ```./python/```, enter the command below,
 ```
-$ python figure.py [case name without file extension]
+$ python figure.py {case name}
 ```
 E.g. <br/>
 ```
