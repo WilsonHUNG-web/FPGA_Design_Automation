@@ -1,6 +1,6 @@
 # FPGA_design_automation
 I.	How to compile
-```$ cd src```
+```$ cd src``` <br/>
 ```$ make clean```
 ```$ make```
 ```$ cd ../bin```
