@@ -22,8 +22,9 @@ E.g. <br/>
 ```
 $ python figure.py case1
 ```
-IV. How to verify whether a solutions is valid <br/>
-In ```/src/```
+IV. How to verify whether a solutions is valid <br/><br/>
+
+In ```/src/```, enter the command below,
 ```
 $ ../bin/verify [../benchmarks/{casename}.arch]  [../benchmarks/{casename}.module]  [../benchmarks/{casename}.net]  [../benchmarks/{casename}.floorplan]
 ```
