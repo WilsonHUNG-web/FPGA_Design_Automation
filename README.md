@@ -22,3 +22,12 @@ E.g. <br/>
 ```
 $ python figure.py case1
 ```
+IV. How to verify whether a solutions is valid <br/>
+In ```/src/```
+```
+$ ../bin/verify [../benchmarks/{casename}.arch]  [../benchmarks/{casename}.module]  [../benchmarks/{casename}.net]  [../benchmarks/{casename}.floorplan]
+```
+E.g. <br/>
+```
+$ ../bin/verify ../benchmarks/case2.arch ../benchmarks/case2.module ./benchmarks/case2.net ../outputs/case2.floorplan 
+```
