@@ -10,7 +10,7 @@ $ make
 ## II. How to run <br/>
 In ```./bin/```, enter the command below,
 ```
-$ ./project [../benchmarks/{casename}.arch] [../benchmarks/{casename}.module] [../benchmarks/{casename}.net] [../benchmarks/{casename}.floorplan]
+$ ./project [../benchmarks/{casename}.arch] [../benchmarks/{casename}.module] [../benchmarks/{casename}.net] [../outputs/{casename}.floorplan]
 ```
 E.g. <br/>
 ```
@@ -28,7 +28,7 @@ $ python figure.py case1
 ## IV. How to verify whether a solutions is valid <br/><br/>
 In ```./src/```, enter the command below,
 ```
-$ ../bin/verify [../benchmarks/{casename}.arch] [../benchmarks/{casename}.module] [../benchmarks/{casename}.net] [../benchmarks/{casename}.floorplan]
+$ ../bin/verify [../benchmarks/{casename}.arch] [../benchmarks/{casename}.module] [../benchmarks/{casename}.net] [../outputs/{casename}.floorplan]
 ```
 E.g. <br/>
 ```
