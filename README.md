@@ -1,6 +1,6 @@
 # FPGA_design_automation
 
-Please firsly refer to file ```./2021 floorplan project.pdf``` for detailed problem description and specs.<br/>
+Please firstly refer to file ```./2021 floorplan project.pdf``` for detailed problem description and specs.<br/>
 ## I. How to compile <br/>
 In ```./src/```, enter the command below,
 ```
@@ -10,7 +10,7 @@ $ make
 ## II. How to run <br/>
 In ```./bin/```, enter the command below,
 ```
-$ ./project [../benchmarks/{casename}.arch]  [../benchmarks/{casename}.module]  [../benchmarks/{casename}.net]  [../benchmarks/{casename}.floorplan]
+$ ./project [../benchmarks/{casename}.arch] [../benchmarks/{casename}.module] [../benchmarks/{casename}.net] [../benchmarks/{casename}.floorplan]
 ```
 E.g. <br/>
 ```
@@ -28,7 +28,7 @@ $ python figure.py case1
 ## IV. How to verify whether a solutions is valid <br/><br/>
 In ```./src/```, enter the command below,
 ```
-$ ../bin/verify [../benchmarks/{casename}.arch]  [../benchmarks/{casename}.module]  [../benchmarks/{casename}.net]  [../benchmarks/{casename}.floorplan]
+$ ../bin/verify [../benchmarks/{casename}.arch] [../benchmarks/{casename}.module] [../benchmarks/{casename}.net] [../benchmarks/{casename}.floorplan]
 ```
 E.g. <br/>
 ```
