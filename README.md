@@ -9,13 +9,13 @@ $ make clean
 $ make 
 ```
 ## II. How to run <br/>
-In ```./bin/```, enter the command below,
+In ```./src/```, enter the command below,
 ```
-$ ./project ../benchmarks/{casename}.arch ../benchmarks/{casename}.module ../benchmarks/{casename}.net ../outputs/{casename}.floorplan
+$ ../bin/project ../benchmarks/{casename}.arch ../benchmarks/{casename}.module ../benchmarks/{casename}.net ../outputs/{casename}.floorplan
 ```
 E.g. <br/>
 ```
-$ ./project ../benchmarks/case2.arch ../benchmarks/case2.module ./benchmarks/case2.net ../outputs/case2.floorplan 
+$ ../bin/project ../benchmarks/case2.arch ../benchmarks/case2.module ./benchmarks/case2.net ../outputs/case2.floorplan 
 ```
 
 ## III. How to verify whether a solutions ```{casename}.floorplan``` is valid <br/><br/>
