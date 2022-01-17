@@ -36,3 +36,4 @@ E.g. <br/>
 ```
 $ python figure.py case1
 ```
+The figure ```{casename}.png``` will be saved in ```./outputs/```.
