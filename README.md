@@ -1,6 +1,6 @@
 # FPGA_design_automation
 
-This is a floorplaner for FPGA with constraints of fixed-outline and heterogeneous structure of CLBs&MUXs.<br/>
+This is a floorplaner for FPGA with constraints of fixed-outline and heterogeneous structure of CLBs of height 1 and MUXs of height 3.<br/>
 Please firstly refer to file ```./2021 floorplan project.pdf``` for detailed problem description, file formats and specs.<br/>
 ## I. How to compile <br/>
 In ```./src/```, enter the command below to remove the old executable file and compile a new one,
