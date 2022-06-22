@@ -18,7 +18,7 @@ E.g. <br/>
 $ ../bin/project ../benchmarks/case2.arch ../benchmarks/case2.module ./benchmarks/case2.net ../outputs/case2.floorplan 
 ```
 
-## III. How to verify whether a solutions ```{casename}.floorplan``` is valid <br/><br/>
+## III. How to verify whether a solution ```{casename}.floorplan``` is valid <br/><br/>
 Use the provided executable file ```../bin/verify``` to verify a solution. In ```./src/```, enter the command below,
 ```
 $ ../bin/verify ../benchmarks/{casename}.arch ../benchmarks/{casename}.module ../benchmarks/{casename}.net ../outputs/{casename}.floorplan
